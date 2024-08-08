@@ -1,0 +1,72 @@
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+    margenTot:{
+        paddingVertical:60,
+        marginHorizontal:30,
+    },
+    styTex:{
+        marginBottom:10,
+        fontSize:25,
+        textAlign:'center',
+        
+    },
+    stleCaj:{
+        backgroundColor:'white',
+        borderTopLeftRadius:30,
+        borderTopRightRadius:30,
+        paddingHorizontal:30,
+        paddingTop:30
+    },
+    textP2:{
+        fontSize:18,
+        fontWeight:'bold',
+        color: 'black'
+    },
+    descText:{
+        fontSize:16,
+    },
+    texImp:{
+        backgroundColor:'#e5eced',
+        paddingHorizontal:20,
+        paddingVertical:10,
+        borderRadius:10
+    },
+    contenCompIm:{
+        marginTop:30,
+        gap: 10
+    },
+    bottonP2:{
+        backgroundColor:'#a2ff9a',
+        paddingVertical:10,
+        borderRadius:15,
+        marginTop:30,
+    },
+    bottonTexP2:{
+        color:'#666666',
+        fontWeight:'bold',
+        textAlign:'center'
+    },
+    bottonAcce:{
+        backgroundColor:'#a2ff9a',
+        paddingVertical:10,
+        borderRadius:15,
+        marginTop:30,
+    },
+    bottonAccTex:{
+        color:'#666666',
+        fontWeight:'bold',
+        textAlign:'center'
+    },
+    bottonReg:{
+        backgroundColor:'#a2ff9a',
+        paddingVertical:10,
+        borderRadius:15,
+        marginTop:30,
+    },
+    bottonRegTex:{
+        color:'#666666',
+        fontWeight:'bold',
+        textAlign:'center'
+    },
+});
